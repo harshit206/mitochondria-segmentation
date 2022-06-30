@@ -49,8 +49,8 @@ We have used annotated [dataset](https://www.epfl.ch/labs/cvlab/data/data-em/) f
 The `2DUNet-mitochondria-segmentation-walkthrough.ipynb` contains the data preparation, training and evaluation of the 2D U-Net architecture. For training, we have croppped the subvolume to generate 256x256 2D slices. The model achieves a dice coefficient score of 0.87 with just 10 epochs.
 
 <p align="middle">
-  <img src="img/2dtrain.png" width="256" />
-  <img src="img/2deval.png" width="256" />
+  <img src="img/2dtrain.png" width="450" />
+  <img src="img/2deval.png" width="450" />
 </p>
 
 ## 3D U-Net <a name="3dunet"></a>
@@ -70,8 +70,8 @@ The `2DUNet-mitochondria-segmentation-walkthrough.ipynb` contains the data prepa
 The `3DUNet-mitochondria-segmentation-walkthrough.ipynb` contains the data preparation, training and evaluation of the 3D U-Net architecture. For training, we have croppped the subvolume to generate voxels of size 64x64x64. The model achieves a dice coefficient score of 0.66 with ~50 epochs.
 
 <p align="middle">
-  <img src="img/3dtrain.png" width="256" />
-  <img src="img/3deval.png" width="256" />
+  <img src="img/3dtrain.png" width="450" />
+  <img src="img/3deval.png" width="450" />
 </p>
   
 ## Results <a name="results"></a>
