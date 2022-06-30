@@ -23,7 +23,7 @@ class DownBlock(nn.Module):
 
         self.maxpool_3d = nn.Sequential(
             nn.MaxPool3d(kernel_size=2),
-            DoubleConv(in_channels, out_channels, second_conv_output)
+            DoubleConvBlock(in_channels, out_channels, second_conv_output)
         )
     
     def forward(self, x):
